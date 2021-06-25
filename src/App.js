@@ -106,7 +106,7 @@ function App() {
       user.active = userActive === "false" ? false : true;
       setUsers([...users]);
     }
-    const res = filter(active, searchedUser);
+    const res = filter(active);
     setFilteredUsers(res);
     toggleModal();
   };
@@ -156,7 +156,7 @@ function App() {
     const res = filter(active);
     setFilteredUsers(res);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [users]);
 
   return (
     <div className="container">
