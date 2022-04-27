@@ -1,2 +1,2 @@
 # React App
-Link : [myappfrompdp.netlify.app]
+Link : [https://myappfrompdp.netlify.app/]
